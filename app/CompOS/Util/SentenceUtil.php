@@ -1,8 +1,8 @@
 <?php
 
-namespace CompOS\Util;
+namespace App\CompOS\Util;
 
-use CompOS\Entity\Attribute;
+use App\CompOS\Entity\Attribute;
 
 /**
  * Description of SentenceUtil

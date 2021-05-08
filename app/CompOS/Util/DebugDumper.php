@@ -1,6 +1,6 @@
 <?php
 
-namespace CompOS\Util;
+namespace App\CompOS\Util;
 
 /**
  * Description of Debug

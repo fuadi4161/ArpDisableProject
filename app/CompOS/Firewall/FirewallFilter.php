@@ -1,9 +1,9 @@
 <?php
 
-namespace CompOS\Firewall;
+namespace App\CompOS\Firewall;
 
-use CompOS\Talker\Talker,
-    CompOS\Util\SentenceUtil;
+use App\CompOS\Talker\Talker,
+App\CompOS\Util\SentenceUtil;
 
 /**
  * Description of Filter

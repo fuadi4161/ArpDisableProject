@@ -2,9 +2,9 @@
 
 namespace App\CompOS;
 
-use App\CompOS\Core\StreamReciever,
-    App\CompOS\Core\StreamSender,
-    App\CompOS\Util\Util;
+use App\CompOS\Core\StreamReciever;
+use App\CompOS\Core\StreamSender;
+use App\CompOS\Util\Util;
 
 /**
  * Description of Connector
@@ -21,18 +21,14 @@ class Connector {
     private $socket;
     private $sender;
     private $reciever;
-    private $host;
-    private $port;
-    private $username;
-    private $password;
     private $connected = FALSE;
     private $login = FALSE;
 
-    public function __construct($host, $port, $username, $password) {
-        $this->host = $host;
-        $this->port = $port;
-        $this->username = $username;
-        $this->password = $password;
+    public function __construct() {
+        $this->host = "17.17.11.1";
+        $this->port = 8728;
+        $this->username = "admin";
+        $this->password = "7659872";
         $this->initStream();
     }
 

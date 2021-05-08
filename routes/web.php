@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/arp', 'ARP\ArpController@getAll');
+Route::get('/arp/{id}', 'ARP\ArpController@detail');
+Route::get('/arp/disable/{id}', 'ARP\ArpController@disable');
+Route::get('/arp/enable/{id}', 'ARP\ArpController@enable');

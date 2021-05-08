@@ -1,9 +1,9 @@
 <?php
 
-namespace CompOS;
+namespace App\CompOS;
 
-use CompOS\Talker\Talker,
-    CompOS\Util\SentenceUtil;
+use App\CompOS\Talker\Talker,
+App\CompOS\Util\SentenceUtil;
 
 /**
  * Description of Address

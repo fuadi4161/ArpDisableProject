@@ -1,6 +1,6 @@
 <?php
 
-namespace CompOS\Entity;
+namespace App\CompOS\Entity;
 
 /**
  * Description of Attribute
