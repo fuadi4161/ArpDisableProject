@@ -25,7 +25,7 @@ class Connector {
     private $login = FALSE;
 
     public function __construct() {
-        $this->host = "17.17.11.1";
+        $this->host = "10.94.73.50";
         $this->port = 8728;
         $this->username = "admin";
         $this->password = "7659872";
