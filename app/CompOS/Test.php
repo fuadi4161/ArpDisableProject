@@ -15,8 +15,6 @@ $auth->setPassword("7659872");
 
 
 $talker = new Talker($auth);
-//$filter = new FirewallFilter($talker);
-//$a = $filter->getAll();
 
 
 $ipaddr = new Address($talker);
